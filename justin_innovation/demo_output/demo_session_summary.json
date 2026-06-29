@@ -1,0 +1,38 @@
+{
+  "generated_at": "2026-05-26T08:00:12.256695+00:00",
+  "log_path": "C:\\Users\\nguye\\AppData\\Local\\Temp\\justin_demo_kbd__jo7\\gated.csv",
+  "gates": {
+    "enabled": false,
+    "min_similarity": 0.55,
+    "min_emotion_conf": 0.2,
+    "require_liveness": false,
+    "cooldown_sec": 0.0
+  },
+  "total_events": 2,
+  "unique_attendees": [
+    "justin"
+  ],
+  "spoof_count": 0,
+  "liveness_unknown": 0,
+  "emotion_distribution": {
+    "happy": 2
+  },
+  "per_person": {
+    "justin": {
+      "log_count": 2,
+      "dwell_seconds": 0.0,
+      "first_seen": "2026-05-26T08:00:12",
+      "last_seen": "2026-05-26T08:00:12",
+      "dominant_emotion": "happy",
+      "avg_similarity": 0.835
+    }
+  },
+  "gate_stats": {
+    "accepted": 0,
+    "rejected_unknown": 0,
+    "rejected_cooldown": 0,
+    "rejected_similarity": 0,
+    "rejected_emotion_conf": 0,
+    "rejected_liveness": 0
+  }
+}

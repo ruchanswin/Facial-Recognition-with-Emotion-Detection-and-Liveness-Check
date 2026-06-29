@@ -1,0 +1,17 @@
+# Install PyTorch with CUDA support (do NOT use plain pip install torch):
+# pip install torch torchvision --index-url https://download.pytorch.org/whl/cu124
+torch>=2.7.0
+torchvision>=0.22.0
+opencv-python>=4.8.0
+scikit-learn>=1.3.0
+matplotlib>=3.7.0
+tqdm>=4.65.0
+pillow>=12.0.0
+numpy
+kaggle>=2.0.0
+kagglehub>=0.3.0
+datasets>=4.8.5
+gradio>=6.14.0
+tensorflow
+plotly>=6.7.0
+facenet-pytorch>=2.5.0

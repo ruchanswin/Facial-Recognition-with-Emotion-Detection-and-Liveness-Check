@@ -1,0 +1,11 @@
+dataset,model_path,data_root,class,precision,recall,f1_score,support,class_accuracy,correct,total
+fer2013,saved_models\fer2013_emotion_model.pth,data/fer2013,angry,0.509634,0.552192,0.53006,958,0.552192,529,958
+fer2013,saved_models\fer2013_emotion_model.pth,data/fer2013,disgust,0.847222,0.54955,0.666667,111,0.54955,61,111
+fer2013,saved_models\fer2013_emotion_model.pth,data/fer2013,fear,0.551046,0.4375,0.487752,1024,0.4375,448,1024
+fer2013,saved_models\fer2013_emotion_model.pth,data/fer2013,happy,0.787766,0.834837,0.810619,1774,0.834837,1481,1774
+fer2013,saved_models\fer2013_emotion_model.pth,data/fer2013,sad,0.515178,0.476343,0.495,1247,0.476343,594,1247
+fer2013,saved_models\fer2013_emotion_model.pth,data/fer2013,surprise,0.754868,0.79302,0.773474,831,0.79302,659,831
+fer2013,saved_models\fer2013_emotion_model.pth,data/fer2013,neutral,0.549296,0.600973,0.573974,1233,0.600973,741,1233
+fer2013,saved_models\fer2013_emotion_model.pth,data/fer2013,macro avg,0.645001,0.606345,0.619649,7178,,,
+fer2013,saved_models\fer2013_emotion_model.pth,data/fer2013,weighted avg,0.625668,0.628727,0.625108,7178,,,
+fer2013,saved_models\fer2013_emotion_model.pth,data/fer2013,overall,,,,7178,0.628727,4513,7178

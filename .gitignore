@@ -1,0 +1,39 @@
+# Trained models (keep folder, ignore binaries)
+saved_models/*.pth
+saved_models/*.pt
+saved_models/*.h5
+saved_models/*.pkl
+saved_models/*.png
+saved_models/*.csv
+emotion/*.csv
+emotion/*.pth
+emotion/*.png
+
+# Runtime files
+registered_faces.npy
+registered_faces.pkl
+logs/
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Datasets
+data/
+
+# Kaggle credentials
+kaggle.json
+
+# Claude Code
+CLAUDE.md
+
+anh_innovation/benchmark_results.png

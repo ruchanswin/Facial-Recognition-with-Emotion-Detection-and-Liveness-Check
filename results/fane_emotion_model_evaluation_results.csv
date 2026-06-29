@@ -1,0 +1,13 @@
+dataset,model_path,data_root,class,precision,recall,f1_score,support,class_accuracy,correct,total
+fane_split,saved_models\fane_emotion_model.pth,data/fane_split,angry,0.54717,0.327068,0.409412,266,0.327068,87,266
+fane_split,saved_models\fane_emotion_model.pth,data/fane_split,confused,0.423077,0.284974,0.340557,193,0.284974,55,193
+fane_split,saved_models\fane_emotion_model.pth,data/fane_split,disgust,0.418605,0.347826,0.379947,207,0.347826,72,207
+fane_split,saved_models\fane_emotion_model.pth,data/fane_split,fear,0.651917,0.508046,0.571059,435,0.508046,221,435
+fane_split,saved_models\fane_emotion_model.pth,data/fane_split,happy,0.533769,0.850694,0.655957,288,0.850694,245,288
+fane_split,saved_models\fane_emotion_model.pth,data/fane_split,neutral,0.596226,0.574545,0.585185,275,0.574545,158,275
+fane_split,saved_models\fane_emotion_model.pth,data/fane_split,sad,0.523109,0.607317,0.562077,410,0.607317,249,410
+fane_split,saved_models\fane_emotion_model.pth,data/fane_split,shy,0.420495,0.643243,0.508547,185,0.643243,119,185
+fane_split,saved_models\fane_emotion_model.pth,data/fane_split,surprise,0.492126,0.44964,0.469925,278,0.44964,125,278
+fane_split,saved_models\fane_emotion_model.pth,data/fane_split,macro avg,0.511833,0.510373,0.498074,2537,,,
+fane_split,saved_models\fane_emotion_model.pth,data/fane_split,weighted avg,0.529839,0.524635,0.515059,2537,,,
+fane_split,saved_models\fane_emotion_model.pth,data/fane_split,overall,,,,2537,0.524635,1331,2537
