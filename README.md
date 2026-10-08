@@ -25,7 +25,8 @@ FaceAttend is an end-to-end, real-time attendance management system that combine
 
 ```
 FaceAttend/
-├── gradio_app.py               # Unified single-page Gradio UI (entry point)
+├── app.py                      # ASGI entry point for Vercel and other ASGI hosts
+├── gradio_app.py               # Unified single-page Gradio UI (local entry point)
 │
 ├── core/
 │   ├── pipeline.py             # Main inference pipeline: detect → liveness → ID → emotion
@@ -127,6 +128,9 @@ python gradio_app.py
 ```
 
 Open your browser at `http://localhost:7860`.
+
+For Vercel or another ASGI host, `app.py` exposes the Gradio interface as a FastAPI
+application. The local `python gradio_app.py` launch command remains unchanged.
 
 ---
 
