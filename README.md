@@ -129,8 +129,19 @@ python gradio_app.py
 
 Open your browser at `http://localhost:7860`.
 
-For Vercel or another ASGI host, `app.py` exposes the Gradio interface as a FastAPI
-application. The local `python gradio_app.py` launch command remains unchanged.
+`app.py` exposes the Gradio interface as a FastAPI application for ASGI/container
+hosts. The full PyTorch/TensorFlow dependency stack exceeds Vercel's 500 MB function
+limit, so deploy this app as a container instead:
+
+```bash
+docker build -t faceattend .
+docker run --rm -p 7860:7860 -v ./saved_models:/app/saved_models faceattend
+```
+
+Place the trained checkpoints in `saved_models/` before running the container. The
+volume mount makes them available at runtime without baking them into the image.
+Open `http://localhost:7860`. The local `python gradio_app.py` launch command remains
+unchanged.
 
 ---
 

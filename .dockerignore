@@ -1,0 +1,14 @@
+.git
+.gradio
+.vscode
+__pycache__
+*.py[cod]
+.venv
+venv
+data
+results
+logs
+saved_models
+nathan_innovation/*.db
+registered_faces.*
+*.pdf
